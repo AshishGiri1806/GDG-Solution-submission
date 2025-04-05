@@ -5,7 +5,7 @@ import io
 import pandas as pd
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCF5Y4pskDJYIeV5o0-RlYiI5haeB9nD_g")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Sample recycler data (in a real app, this would come from a database)
